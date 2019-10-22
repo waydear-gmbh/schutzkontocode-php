@@ -1,7 +1,7 @@
 {
     "name": "waydear/schutzkontocode-php",
     "description": "schutzkontocode PHP Library",
-    "license": "GPLv3",
+    "license": "GPL-3.0-only",
     "type": "library",
     "keywords": ["p-konto", "schutzkonto"],
     "homepage": "https://www.schutzkontocode.de",
