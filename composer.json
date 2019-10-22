@@ -1,0 +1,26 @@
+{
+    "name": "waydear/schutzkontocode-php",
+    "description": "schutzkontocode PHP Library",
+    "license": "GPLv3",
+    "type": "library",
+    "keywords": ["p-konto", "schutzkonto"],
+    "homepage": "https://www.schutzkontocode.de",
+    "support": {
+        "email": "source@waydear.com",
+        "issues": "https://github.com/waydear-gmbh/schutzkontocode-php/issues"
+    },
+    "authors": [
+        {
+            "name": "waydear GmbH",
+            "email": "source@waydear.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "waydear\\schutzkontocode\\": "src/"
+        }
+    }
+}
