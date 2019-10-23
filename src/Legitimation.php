@@ -7,7 +7,7 @@ class Legitimation
     const LEGITIMATION_TYPE_ELIGABLE_PERSON = 2;
     const LEGITIMATION_TYPE_EMPLOYER = 3;
     const LEGITIMATION_TYPE_SOCIAL_SECURITY = 4;
-    const LEGITIMATION_TYPE_JOBCENTER = 5;
+    const LEGITIMATION_TYPE_FAMILIENKASSE = 5;
 
     public $type;
     public $authorityName;
