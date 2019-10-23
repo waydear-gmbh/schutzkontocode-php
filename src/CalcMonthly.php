@@ -10,5 +10,18 @@ class CalcMonthly
     public $careAllowanceAmount = 0;
     public $additionalChildrenAllowanceAmount = 0;
     public $finalAmount = 0;
-    public $children = 0;
+    public $children = array();
+
+    public function addPerson(){
+
+        $sum = $this->firstAllowanceCount + $this->secondAllowanceCount;
+        if($sum >= 5)
+            return;
+
+        if($this->firstAllowanceCount > 0)
+            $this->secondAllowanceCount++;
+        else
+            $this->firstAllowanceCount = 1;
+
+    }
 }

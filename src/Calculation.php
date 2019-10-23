@@ -5,4 +5,5 @@ class Calculation
 {
     public $monthly;
     public $onetimeAmount;
+    public $onetimeDescription;
 }
